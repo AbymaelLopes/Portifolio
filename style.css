@@ -39,9 +39,12 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 20rem) {
     body{
         display: flex;
+        flex-direction: column;
+    }
+    header{
         flex-direction: column;
     }
 }
